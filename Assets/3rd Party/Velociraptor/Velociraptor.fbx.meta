@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: e0695f0b04d7b734ea6ec11026bf22ed
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BLFoot
+    100002: BLShin
+    100004: BLThigh
+    100006: BLToe
+    100008: Body
+    100010: BRFoot
+    100012: BRShin
+    100014: BRThigh
+    100016: BRToe
+    100018: Camera
+    100020: FLForeArm
+    100022: FLHand
+    100024: FLUpperArm
+    100026: FRForeArm
+    100028: FRHand
+    100030: FrontBody
+    100032: FRUpperArm
+    100034: Head
+    100036: Jaw
+    100038: Light
+    100040: Neck1
+    100042: Neck2
+    100044: Tail1
+    100046: Tail2
+    100048: Tail3
+    100050: //RootNode
+    100052: Velociraptor_1
+    400000: BLFoot
+    400002: BLShin
+    400004: BLThigh
+    400006: BLToe
+    400008: Body
+    400010: BRFoot
+    400012: BRShin
+    400014: BRThigh
+    400016: BRToe
+    400018: Camera
+    400020: FLForeArm
+    400022: FLHand
+    400024: FLUpperArm
+    400026: FRForeArm
+    400028: FRHand
+    400030: FrontBody
+    400032: FRUpperArm
+    400034: Head
+    400036: Jaw
+    400038: Light
+    400040: Neck1
+    400042: Neck2
+    400044: Tail1
+    400046: Tail2
+    400048: Tail3
+    400050: //RootNode
+    400052: Velociraptor_1
+    4300000: Velociraptor_1
+    7400000: Stand
+    7400002: Walk
+    7400004: Run
+    7400006: Stand Die
+    7400008: Move Die
+    7400010: Idle
+    7400012: Attack
+    7400014: Hurt
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Velociraptor_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand
+      takeName: Base Stack
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Base Stack
+      firstFrame: 2
+      lastFrame: 34
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Base Stack
+      firstFrame: 37
+      lastFrame: 53
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Die
+      takeName: Base Stack
+      firstFrame: 56
+      lastFrame: 104
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Move Die
+      takeName: Base Stack
+      firstFrame: 107
+      lastFrame: 146
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Base Stack
+      firstFrame: 149
+      lastFrame: 248
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Base Stack
+      firstFrame: 251
+      lastFrame: 294
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Base Stack
+      firstFrame: 296
+      lastFrame: 331
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Velociraptor_1
+        weight: 1
+      - path: Velociraptor_1/Body
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BLThigh/BLShin/BLFoot/BLToe
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot
+        weight: 1
+      - path: Velociraptor_1/Body/BRThigh/BRShin/BRFoot/BRToe
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FLUpperArm/FLForeArm/FLHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/FRUpperArm/FRForeArm/FRHand
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head
+        weight: 1
+      - path: Velociraptor_1/Body/FrontBody/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2
+        weight: 1
+      - path: Velociraptor_1/Body/Tail1/Tail2/Tail3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
