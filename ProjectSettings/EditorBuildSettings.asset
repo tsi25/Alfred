@@ -5,18 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/roomtest.unity
   - enabled: 1
-    path: Assets/Scenes/PhoneTest.unity
+    path: Assets/_ExperimentalAugmentedPet.unity
+  - enabled: 0
+    path: Assets/Scenes/ExperimentalAugmentedReality.unity
   - enabled: 0
     path: Assets/Scenes/AreaLearning.unity
   - enabled: 0
     path: Assets/Scenes/MotionTracking.unity
   - enabled: 0
     path: Assets/Scenes/PointCloud.unity
-  - enabled: 0
-    path: Assets/Scenes/ExperimentalAugmentedReality.unity
   - enabled: 0
     path: Assets/Scenes/ExperimentalMeshBuilder.unity
   - enabled: 0

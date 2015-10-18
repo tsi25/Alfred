@@ -8,6 +8,9 @@ TagManager:
   - Predator
   - Huntable
   - Ball
+  - Interactible
+  - Pickup
+  - Ground
   layers:
   - Default
   - TransparentFX
